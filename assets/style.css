@@ -1,0 +1,9 @@
+:root {
+    --blue-header:  #06131F;
+    --blue-primary: #1D2D3C;
+    --blue-secondary: #112030;
+}
+
+header{
+    background-color: var(--blue-header);
+}
