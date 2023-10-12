@@ -7,3 +7,16 @@
 header{
     background-color: var(--blue-header);
 }
+
+main{
+    background-color: var(--blue-primary);
+}
+
+.card-bg-custom{
+    background-color: var(--blue-secondary);
+}
+
+.center-image {
+    display: block;
+    margin: 0 auto;
+}

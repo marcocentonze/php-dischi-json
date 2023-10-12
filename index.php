@@ -21,7 +21,7 @@
 
     <div id="app">
 
-        <header style="height:100px;">
+        <header style="height:125px;">
             <div class="col-12 ">
                 <img src="./assets/img/logo.png" style="width:250px;">
             </div>
@@ -30,13 +30,13 @@
 
         <main>
         <div class="container">
-            <div class="row mt-5 g-3 p-2">
+            <div class="row g-4 p-3">
                 <div class="col-4" v-for="(disk, index) in disks" :key="index">
-                    <div class="card">
-                    <img :src="disk.poster" class="card-img-top" :alt="disk.title">
-                        <div class="card-body">
+                    <div class="card card-bg-custom" style="width: 350px;">
+                    <img :src="disk.poster" class="card-img-top w-50 center-image pt-4" :alt="disk.title">
+                        <div class="card-body text-center text-white">
                             <h5 class="card-title">{{disk.title}}</h5>
-                            <h6 class="card-subtitle mb-2 text-muted ">{{disk.author}}</h6>
+                            <h6 class="card-subtitle mb-2">{{disk.author}}</h6>
                             <p class="card-text">{{disk.year}}</p>
                             
                         </div>
